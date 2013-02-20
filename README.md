@@ -14,6 +14,7 @@ A count-down timer that periodically checks a flag (to terminate the timer) usin
           print "Sleep was interrupted prematurely by callable_func() at: %s"%e.when
           print "Remaining sleep time: %s"%e.remaining
           print "Slept for time: %s"%e.duration
+          print "Expected to sleep for time: %s"%e.expected
         else:
           # FYI - timer may not sleep if 'int_duration_seconds'==0
           print "Did we sleep? "+boolean_slept
