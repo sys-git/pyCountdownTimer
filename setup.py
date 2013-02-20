@@ -20,9 +20,9 @@ setup(
     description="A count-down timer that periodically checks a flag (to terminate the timer) using a supplied callable.",
     license="GNU General Public License",
     classifiers=[
-        'Development Status :: 5 - Production/Stable',
+        'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: GNU General Public License',
+        'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Topic :: Communications',
