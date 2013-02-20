@@ -3,6 +3,8 @@ pyCountdownTimer
 
 A count-down timer that periodically checks a flag (to terminate the timer) using a supplied callable.
 
+There are some simple unit-tests that take 20 seconds to execute and leave no remaining threads or processes.
+
         from  pyCountdownTimer import Timer, InteruptedSleep
         
         #   Sleep/block for max: 'int_duration_seconds' checking boolean state of 'callable_func()' every 'resolution_seconds':
