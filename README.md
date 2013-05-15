@@ -21,3 +21,6 @@ There are some simple unit-tests that take 20 seconds to execute and leave no re
           # FYI - timer may not sleep if 'int_duration_seconds'==0
           print "Did we sleep? "+boolean_slept
         
+In case you're feeling generous:
+LTC: LT636SrauWAz9XDz2EKxAXQ5jKqehyhR69
+BTC: 13vS6cvzZXf1Yxrar2SYSPQrFLSEwLePV4
